@@ -27,13 +27,14 @@ const unzip = (pathIn, pathOut) => {
     fs.createReadStream(pathIn)
       .pipe(unzipper.Extract({ path: pathOut }))
       .on('close', () => {
-        resolve();
+        resolve("Extraction operation complete");
       })
       .on('error', (error) => {
         reject(error);
       });
   });
 };
+
 
 /**
  * Description: read all the png files from given directory and return Promise containing array of each png file path
