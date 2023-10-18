@@ -4,8 +4,8 @@ const path = require("path");
  * File Name: main.js
  * Description:
  *
- * Created Date:
- * Author:
+ * Created Date: October 10th(Originally downloaded on the 10th, Last modified October 18th)
+ * Author: Norvin Lim
  *
  */
 
